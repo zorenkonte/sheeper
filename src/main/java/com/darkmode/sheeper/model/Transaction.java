@@ -2,11 +2,15 @@ package com.darkmode.sheeper.model;
 
 import lombok.*;
 
+import javax.persistence.Entity;
+import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 import java.util.Date;
 
 @Data
+@Table
+@Entity
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString(callSuper = true)
